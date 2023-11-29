@@ -1,0 +1,138 @@
+.bloc1{
+    position: relative;
+    bottom: 20px;
+}
+
+#sidebar{
+    background-color: #feffff !important;
+    color:  #01BF63;
+   
+  
+}
+
+.side-menu{
+    position: relative;
+    right: 150px !important;
+    
+    top: 5px;
+    
+    
+}
+
+#contact{
+    position: relative;
+    left: 100px !important;
+    top: 5px;
+}
+
+#inscrire{
+    position: relative;
+    top: 5px;
+    right: 85px;
+    background-color: #F34160;
+}
+
+
+.couleur{
+    color:  #01BF63;
+    color: #F34160;
+}
+
+
+.block2 p {
+    background-color: #01BF63;
+    width: 30%;
+    position: relative;   
+}
+
+.bloc1{
+    width: 100%;
+    position: relative;
+    bottom: 50px !important;
+    
+}
+
+#carousel {
+    height: 500px !important;
+}
+
+
+
+
+#blog{
+    width: 100% !important;
+}
+
+#features{
+    position: relative;
+    left: 50px !important;
+}
+
+#carou{
+   font-weight: bolder;
+    color: black;
+    font-size: 50px;
+    width: 500px;
+    height: 100px;
+    
+}
+
+#carou h1{
+    margin-top: 30px;
+    font-weight: bolder !important;
+    color:  white;
+    background-color: rgba(1, 191, 99, 0.5);
+    font-size: 50px;
+    width: 700px !important;
+    height: 110px;
+     
+}
+
+#carou h2{
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: bolder !important;
+    color:  rgb(7, 7, 7);
+    text-align: left;
+    font-size: 50px;
+    width: 500px !important;
+    height: 110px;
+  
+    
+}
+
+.bloc2{
+    position: relative;
+    bottom: 50px !important;
+    
+}
+#bloc2{
+    position: relative;
+    bottom: 10px !important;
+}
+
+.bloc2 h4 {
+color: #01BF63;
+font-size: 40px;
+}
+
+.logo2{
+    position: relative;
+    left: 95px;
+}
+
+.breadcrump{
+    position: relative;
+    bottom: 45px !important;
+    font-size: 25px;
+    left: 400px;
+}
+
+
+
+
+
+    
+
+
+

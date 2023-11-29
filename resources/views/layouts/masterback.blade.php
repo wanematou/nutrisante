@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+    <head>
+
+            <!-- META DATA -->
+            <meta charset="UTF-8">
+            <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="description" content="Sash – Bootstrap 5  Admin & Dashboard Template">
+            <meta name="author" content="Spruko Technologies Private Limited">
+            <meta name="keywords"
+                content="admin,admin dashboard,admin panel,admin template,bootstrap,clean,dashboard,flat,jquery,modern,responsive,premium admin templates,responsive admin,ui,ui kit.">
+
+           
+            <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/brand/favicon.ico')}}" />           
+            <title>backoffice</title>         
+            <link id="style" href="{{ asset('assets/plugins/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" />            
+            <link href="{{ asset('assets/css/style.css')}}" rel="stylesheet" />         
+            <link rel="stylesheet" href="{{asset('css/masterback.css')}}">
+            <link href="{{ asset('assets/css/dark-style.css')}}" rel="stylesheet" />
+            <link href="{{ asset('assets/css/transparent-style.css')}}" rel="stylesheet">
+            <link href="{{ asset('assets/css/skin-modes.css')}}" rel="stylesheet" />           
+            <link href="{{ asset('assets/css/icons.css')}}" rel="stylesheet" />
+            <link id="theme" rel="stylesheet" type="text/css" media="all" href="{{ asset('assets/colors/color1.css')}}" />
+
+        </head>
+
+        <body class="app sidebar-mini ltr light-mode">
+
+                    
+                    <div id="global-loader">
+                        <img src="{{ asset('assets../assets/images/loader.svg')}}" class="loader-img" alt="Loader">
+                    </div>
+                   
+                    <div class="page">
+                        <div class="page-main">
+                            @include('partials.topbar')                        
+                            @yield('page-content')
+
+                        </div>
+                        @include('partials.footer')
+                    </div>
+
+
+
+
+
+        <a href="#top" id="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+        
+            <script src="{{ asset('assets/js/jquery.min.js')}}"></script>
+            <script src="{{ asset('assets/plugins/bootstrap/js/popper.min.js')}}"></script>
+            <script src="{{ asset('assets/plugins/bootstrap/js/bootstrap.min.js')}}"></script>
+            <script src="{{ asset('assets/js/jquery.sparkline.min.js')}}"></script>
+            <script src="{{ asset('assets/js/sticky.js')}}"></script>
+            <script src="{{ asset('assets/js/circle-progress.min.js')}}"></script>
+            <script src="{{ asset('assets/plugins/peitychart/jquery.peity.min.js')}}"></script>
+            <script src="{{ asset('assets/plugins/peitychart/peitychart.init.js')}}"></script>
+            <script src="{{ asset('assets/plugins/sidebar/sidebar.js')}}"></script>
+            <script src="{{ asset('assets/plugins/p-scroll/perfect-scrollbar.js')}}"></script>
+            <script src="{{ asset('assets/plugins/p-scroll/pscroll.js')}}"></script>
+            <script src="{{ asset('assets/plugins/p-scroll/pscroll-1.js')}}"></script>
+            <script src="{{ asset('assets/plugins/chart/Chart.bundle.js')}}"></script>
+            <script src="{{ asset('assets/plugins/chart/rounded-barchart.js')}}"></script>
+            <script src="{{ asset('assets/plugins/chart/utils.js')}}"></script>
+            <script src="{{ asset('assets/plugins/select2/select2.full.min.js')}}"></script>
+            <script src="{{ asset('assets/plugins/datatable/js/jquery.dataTables.min.js')}}"></script>
+            <script src="{{ asset('assets/plugins/datatable/js/dataTables.bootstrap5.js')}}"></script>
+            <script src="{{ asset('assets/plugins/datatable/dataTables.responsive.min.js')}}"></script>
+            <script src="{{ asset('assets/js/apexcharts.js')}}"></script>
+            <script src="{{ asset('assets/plugins/apexchart/irregular-data-series.js')}}"></script>
+            <script src="{{ asset('assets/plugins/flot/jquery.flot.js')}}"></script>
+            <script src="{{ asset('assets/plugins/flot/jquery.flot.fillbetween.js')}}"></script>
+            <script src="{{ asset('assets/plugins/flot/chart.flot.sampledata.js')}}"></script>
+            <script src="{{ asset('assets/plugins/flot/dashboard.sampledata.js')}}"></script>
+            <script src="{{ asset('assets/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js')}}"></script>
+            <script src="{{ asset('assets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js')}}"></script>
+            <script src="{{ asset('assets/plugins/sidemenu/sidemenu.js')}}"></script>
+            <script src="{{ asset('assets/plugins/bootstrap5-typehead/autocomplete.js')}}"></script>
+            <script src="{{ asset('assets/js/typehead.js')}}"></script>
+            <script src="{{ asset('assets/js/index1.js')}}"></script>
+            <script src="{{ asset('assets/js/themeColors.js')}}"></script>         
+            <script src="{{ asset('assets/js/custom.js')}}"></script>
+
+        </body>
+
+</html>

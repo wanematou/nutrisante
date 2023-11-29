@@ -1,0 +1,43 @@
+/* topbar */
+
+#breadcrumb a{
+    position: relative;
+    right: 750px;
+}
+.nback{
+    position: relative;
+    right: 1100px !important;
+}
+#blog {
+    position: relative;
+    right: 300px !important;
+}
+#sideapp{
+    margin: 5% !important;
+}
+
+#sideapp .card{
+    width: 350px;
+    height: 400px;
+}
+.imageblg{
+   
+    margin: 10px;
+    height: 150px;
+    width: 200px;
+}
+
+
+
+.imagetopbaar{
+    position: relative;
+    right: 450px !important;
+}
+
+#ultopbar{
+    position: relative;
+    right: 450px !important;
+    bottom: 8px;
+}
+
+
